@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header {
+  height: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.17);
+  border: 1px solid #ececec;
+  background-color: #ffffff;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  color: #222222;
+  font-size: 27px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.68px;
+}
+.logo__img {
+  margin-right: 13px;
+}
+.logo__text {
+  margin-top: 4px;
+}
+.logo__d {
+  margin-top: 4px;
+  color: #f16d7f;
+  font-weight: 400;
+}
+.header__form {
+  display: flex;
+  align-items: center;
+  margin-left: 37px;
+}
+.header__form-text {
+  display: flex;
+  justify-content: center;
+  width: 87px;
+  height: 36px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid #e6e6e6;
+  background-color: #cdcdcc;
+  background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+  color: #222222;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+}
+.header__form-input {
+  width: 279px;
+  height: 38px;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  padding-left: 16px;
+  color: #6a6a6a;
+  /* #a4a4a4;*/
+  font-size: 14px;
+  font-weight: 300;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.header__form-button {
+  width: 38px;
+  height: 38px;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+}
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.header__right-img {
+  margin-top: 6px;
+  margin-right: 26px;
+}
+.button {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 19px;
+  padding-right: 19px;
+  background-color: #f16d7f;
+  display: block;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.38px;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.menu__link {
+  padding: 20px 15px;
+  display: block;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.menu__link:hover {
+  color: #f16d7f;
+}
+.slider {
+  height: 613px;
+  background-color: #e8e8e8;
+  margin-bottom: 98px;
+}
+.slider__container {
+  height: 100%;
+  background-image: url(img/slider.jpg);
+  background-position: 0 -52px;
+}
+.slider__text {
+  margin-top: 224px;
+  float: left;
+  border-left: 12px solid #f16d7f;
+  padding-left: 12px;
+}
+.slider__h2 {
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  color: #222222;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 45px;
+  margin-bottom: 15px;
+}
+.slider__h4 {
+  color: #222222;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 31px;
+}
+.slider__h4-text {
+  color: #f16d7f;
+  letter-spacing: 1px;
+}
+.category {
+  height: 823px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.category__for-man {
+  position: relative;
+  width: 560px;
+  height: 542px;
+  background: url("img/Layer 30.jpg");
+}
+.category__for-man:hover,
+.category__woman:hover,
+.category__accesories:hover,
+.category__for-kids:hover {
+  outline: 1px solid #f16d7f;
+}
+.category__woman {
+  position: relative;
+  width: 560px;
+  height: 261px;
+  background: url("img/Layer 32.jpg");
+}
+.category__accesories {
+  position: relative;
+  width: 560px;
+  height: 261px;
+  background: url("img/Layer 37.jpg") no-repeat;
+}
+.category__for-kids {
+  position: relative;
+  width: 560px;
+  height: 542px;
+  background: url("img/Layer 31.jpg");
+}
+.category__link {
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.hot_deal {
+  width: 175px;
+  height: 82px;
+  background-color: #ffffff;
+  margin-top: 26px;
+}
+.hot_deal_h6,
+.LUXIROUS_h6 {
+  float: left;
+  margin-top: 16px;
+  margin-left: 19px;
+  color: #222222;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.LUXIROUS_h6 {
+  letter-spacing: 0.45px;
+}
+.hot_deal_h4,
+.LUXIROUS_h4 {
+  clear: both;
+  margin-left: 19px;
+  color: #f16d7f;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+}
+.accesories__LUXIROUS {
+  width: 225px;
+  height: 82px;
+  background-color: #ffffff;
+  margin-top: 25px;
+}
